@@ -1,0 +1,22 @@
+#button_area{
+    width: 72%; 
+    text-align: right;
+}
+
+#title{
+    width: 600px;
+}
+
+#writer{
+    border:none;
+    width: 250px;
+}
+
+#content{
+    width: 600px;
+    height: 300px;
+}
+
+textarea{
+    resize: none;
+}

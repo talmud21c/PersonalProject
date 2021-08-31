@@ -1,0 +1,18 @@
+#button_area{
+    width: 72%; 
+    text-align: right;
+}
+
+#content{
+    width: 600px;
+    height: 300px;
+}
+
+td, th {border:solid 1px}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {text-align: center;}
