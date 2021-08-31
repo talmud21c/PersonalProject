@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>상세 페이지</title>
+<link rel="stylesheet" href="css/view.css">
+<link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+<h1>게시글내용</h1>
+<table>
+  <tr>
+    <th>제목</th>
+    <td><p id="title"></p></td>
+  </tr>
+  <tr>
+    <th>작성자</th>
+    <td><p id="writer"></p></td>
+  </tr>
+  <tr>
+    <th>작성일</th>
+    <td><p id="write_date"></p></td>
+  </tr>
+  <tr>
+    <th>내용</th>
+    <td>
+      <pre id="content"></pre>
+    </td>
+  </tr>
+</table>
+<div id="button_area">
+  <button onclick="window.history.back()">목록</button>
+  <button id="btnModify" onclick="modify()" hidden>수정</button>
+  <button id="btnDelete" onclick="removeContent()" hidden>삭제</button>
+</div>
+
+</body>
+<script type="text/javascript" src="js/view.js"></script>
+</html>

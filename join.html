@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>회원가입 페이지</title>
+<!-- <link rel="stylesheet" href="css/common.css">  -->
+</head>
+<body style="margin-left: 40%; text-align: left;">
+  <h2>회 원 가 입</h2>
+  <input type="text" id="id" placeholder="ID"/> <button onclick="checkId()">중복체크</button><br/>
+  <input type="text" id="name" placeholder="name"/><br/>
+  <input type="password" id="pw" onchange="isSame()" placeholder="password(4자리 이상 8자리 이하)"/> <br/>
+  <input type="password" id="pw_chk" onchange="isSame()" placeholder="confirm"/><br/>&nbsp;&nbsp;<span id="same"></span></td>
+  <button id="btnJoin" onclick="join()" disabled>회원가입</button>
+</body>
+<script type="text/javascript" src="js/join.js"></script>
+</html>

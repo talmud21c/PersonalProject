@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>자유게시판에 오신것을 환영합니다.</title>
+<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<h1>자유게시판</h1>
+<div class="helloUser">
+<b id="userName"></b>님 환영합니다. <button onclick="logOut()">로그아웃</button>
+</div>
+<table>
+  <tr>
+    <th>번호</th>
+    <th>제목</th>
+    <th>작성자</th>
+    <th>작성일</th>
+  </tr>
+  <tbody id="rows">
+
+  </tbody>
+</table>
+<div id="button_area">
+  <button onclick="moveForm()">글작성</button>
+</div>
+
+</body>
+<script type="text/javascript" src="js/list.js"></script>
+</html>
